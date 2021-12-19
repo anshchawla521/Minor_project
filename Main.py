@@ -85,7 +85,7 @@ def calculate_bill(old_reading: int, new_reading: int) -> int:
     print(total)
     print("Bill value after surcharge")
     print(surcharge)
-    return total
+    return round(total , 2)
 
 
 def get_image(client_secret_file, api_name, api_version, text_file_id, *scopes):
